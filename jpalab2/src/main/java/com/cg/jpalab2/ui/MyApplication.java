@@ -20,12 +20,12 @@ public class MyApplication {
 	
 	
 	
-	Author author1 = new Author(1, "Paulo");
-	Author author2 = new Author(2, "RR Martin");
+	Author author1 = new Author(1, "ABC");
+	Author author2 = new Author(2, "XYZ");
 	
-	Book book1 = new Book(4, "The Alchemist", 1000);
-	Book book2 = new Book(5, "ASOIAF", 2000);
-	Book book3 = new Book(6, "JAVA", 2000);
+	Book book1 = new Book(4, "The qwe", 1000);
+	Book book2 = new Book(5, "asd", 2000);
+	Book book3 = new Book(6, "zxc", 500);
 	
 	List<Book> bookList = new ArrayList<Book>();
 	bookList.add(book1);
